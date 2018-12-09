@@ -15,6 +15,7 @@ public class FallDeath : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (transform.position.y < -2) {
+            DontDestroy.numLives--;
 			gameObject.transform.position = startingPrefab.transform.position;
 			character.gameObject.transform.position = startingPrefab.transform.position;
 		}
