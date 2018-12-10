@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DougLevels/DougLvl1.unity
+    guid: 818166118a65a4dd0861983cce874942
+  - enabled: 1
+    path: Assets/Scenes/DougLevels/DougLvl2.unity
+    guid: f16c4b1512ed44f40858cdadaffcb083
+  - enabled: 1
+    path: Assets/Scenes/DougLevels/DougLvl3.unity
+    guid: a0d7c1a1719e1494996e08a5c049b80a
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: aa97c0e77be674af0acd9a54c00e9898
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 12a4d75da2db4d3439c09e07c73a85b2
+  m_configObjects: {}
