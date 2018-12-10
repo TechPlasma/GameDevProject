@@ -12,5 +12,14 @@ public class PortalScript : MonoBehaviour {
         if(Stage.Equals("Douglas")){
             SceneManager.LoadScene("DougLvl1");
         }
+        if(Stage.Equals("Chase")){
+            SceneManager.LoadScene("ChaseLevel1");
+        }
+        if(Stage.Equals("Saul")){
+            SceneManager.LoadScene("SaulLevel1");
+        }
+        if(Stage.Equals("Beto")){
+            SceneManager.LoadScene("BetoLevel1");
+        }
     }
 }
